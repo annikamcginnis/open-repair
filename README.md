@@ -45,6 +45,8 @@ I also attempted to categorize the listed problems (the specific problem each in
 ## Reflection
 I improved my skills in in-depth analysis using Pandas and R-ggplot on a very large (208,000+ rows) dataset. I also learned how to use a service account to send data to an API (as well as the importance of understanding the expected cost of a large-scale API request before running it!). I learned the concept of AI zero-shot classification and was able to practice it, though I also learned some of its current limitations and likelihood for error. 
 
+I also tried out some new charts in Datawrapper. For my multiple dot plot, I needed to create a new numeric column in my data where each brand was given a unique number in order of its mean product age value for mobile devices.
+
 Speaking to one of the team leads at the organization behind the data helped me pivot from conducting change-over-time analysis by the event year category to the year of manufacture category, which is more accurate since products of any age can be brought in anytime. 
 
 I also learned that considering sample size is very important when conducting comparisons. In this dataset, some countries have very few data compared to others with thousands. The same disparities exist for years of manufacture and brands. For some of my analysis and charts that took the average for specific categories over years, I had to throw out categories or years with too small data because these averages based on very small sample sizes could mislead viewers into thinking they were comparable to other categories with much larger sample sizes. In the end, I didn't use any country comparisons for conclusions or visualizations because the sample sizes were too small for non-European countries.
